@@ -90,10 +90,11 @@ body{
 .hero__right, .hero__left{
     flex: 1;
 }
+
 .hero__left{
-    
     align-items: center;
 }
+
 .hero__right__img{
     width: 100%;
     border-radius: 20px;
@@ -107,6 +108,7 @@ body{
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .hero__left{
     display: flex;
     align-items: center;
@@ -136,31 +138,39 @@ body{
 }
 .products__items{
     display: flex;
+    gap: 24px;
     justify-content: center;
     border-radius: 1;
     align-items: center;
 }
+
+.products__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(184, 175, 175);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
 .icecream__item_img{
-    width: 350px;
-    object-fit: contain;
-    height: 400px;
-    padding: 20px;
-    float: inline-end;
+    width: 300px;
+    object-fit: cover;
+    height: 350px;
 }
-.products__item__content{
-    text-align: justify;
-    line-height: 25px;
-}
+
 .hero__leftt{
     display: flex;
     align-items: center;
 }
 .hero__leftt  .hero__titlee{
-    font-size: 60px;
+    font-size: 55px;
     font-family: FontPrimary;
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .hero__subtextt{
     font-size: 20px;
     margin-bottom: 40px;
@@ -172,17 +182,25 @@ body{
 .hero__titlee{
     text-align: center;
 }
+.hero_description {
+    font-size: 20px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
 .jar {
+   padding: 0px 20px 0px 20px;
     display: flex;
+    gap: 8px;
     align-items: center;
     justify-content: center;
 }
-.jar .h2{
-    display: flex;
-    align-items: center;
-    padding: 100px 0px;
-}
+
 .title_c{
-    align-items: center;
-    margin: 0;
+    font-size: 16px;
 }
