@@ -136,7 +136,7 @@ body{
 }
 .products__items{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     border-radius: 1;
     align-items: center;
 }
@@ -171,6 +171,11 @@ body{
 }
 .hero__titlee{
     text-align: center;
+}
+.jar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .jar .h2{
     display: flex;
