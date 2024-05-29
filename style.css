@@ -408,14 +408,14 @@ p {
 
 /* ADOPTION */
 .adoption {
-	/*border: 1px solid red;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 100vw;
-	min-height: calc(100vh - 70px);
-	/* margin: 0 auto; */
+	max-width: 100vw;
+	max-height: calc(100vh - 70px);
+	overflow: hidden;
+	margin: 0 auto;
 	background-image: url('image/border.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
