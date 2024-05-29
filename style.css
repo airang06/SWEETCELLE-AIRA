@@ -177,7 +177,7 @@ body {
   border: 1px solid rgb(184, 175, 175);
   border-radius: 10px;
   overflow: hidden;
-  background-color: white;
+  background-color: #8a6240;
   font-family: Primary;
 }
 
@@ -303,7 +303,6 @@ p {
 }
 
 .column__center {
-  margin-top: 100px;
   justify-content: center;
   text-align: center;
   font-family: Primary;
@@ -318,7 +317,7 @@ p {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-color: white;
+  background-color: #8a6240;
   border-radius: 20px;
   border: 2px solid rgb(184, 175, 175);
   object-fit: cover;
@@ -327,7 +326,7 @@ p {
 }
 
 .column-text {
-  margin-top: 5%;
+  margin-top: 50px;
 }
 
 .column-text p {
@@ -580,7 +579,7 @@ p {
   border: 1px solid rgb(184, 175, 175);
   border-radius: 10px;
   overflow: hidden;
-  background-color: white;
+  background-color: #8a6240;
   font-family: Primary;
   text-align: center;
 }
@@ -651,4 +650,63 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-classes-img {
+  border-radius: 20px;
+  width: 90%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border: 0;
+  margin: auto;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+
+.box {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #8a6240;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.last-content {
+  padding: 50px;
+  text-align: center;
+  font-family: Primary;
+}
+
+.vision {
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  font-family: Primary;
+}
+
+.about-classes {
+  padding: 50px;
+}
+
+.vision-three {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.vision-three div {
+  background-color: white;
+  border-radius: 25px;
+  padding: 18px 24px;
 }
